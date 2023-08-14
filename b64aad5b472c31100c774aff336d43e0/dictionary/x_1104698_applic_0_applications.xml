@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="29aaa59b472c31100c774aff336d430a" label="Applications" max_length="40" name="x_1104698_applic_0_applications" type="collection">
+        <element label="Has Personal Data" max_length="40" name="has_personal_data" type="boolean"/>
+        <element label="IP Address" max_length="40" name="ip_address" type="string"/>
+        <element choice="1" label="Mobile Application" max_length="40" name="mobile_application" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Android" sequence="0" value="android"/>
+                <element inactive_on_update="false" label="IOS" sequence="1" value="ios"/>
+                <element inactive_on_update="false" label="Android &amp; IOS" sequence="2" value="android_ios"/>
+            </choice>
+        </element>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Other" max_length="40" name="other" type="string"/>
+        <element label="Self Hosted" max_length="40" name="self_hosted" type="boolean"/>
+        <element label="Type of Application" max_length="32" name="type_of_application" reference="x_1104698_applic_0_type_of_application" type="reference"/>
+        <index name="index">
+            <element name="type_of_application"/>
+        </index>
+    </element>
+</database>

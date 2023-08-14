@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="mobile_application" table="x_1104698_applic_0_applications" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>mobile_application</element>
+            <name>x_1104698_applic_0_applications</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-14 15:15:15</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>mobile_application</sys_name>
+            <sys_package display_value="Application Inv" source="x_1104698_applic_0">b64aad5b472c31100c774aff336d43e0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Application Inv">b64aad5b472c31100c774aff336d43e0</sys_scope>
+            <sys_update_name>sys_choice_x_1104698_applic_0_applications_mobile_application</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-14 15:15:15</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mobile_application</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Android</label>
+            <language>en</language>
+            <name>x_1104698_applic_0_applications</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-14 15:15:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-14 15:15:15</sys_updated_on>
+            <value>android</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mobile_application</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IOS</label>
+            <language>en</language>
+            <name>x_1104698_applic_0_applications</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-14 15:15:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-14 15:15:15</sys_updated_on>
+            <value>ios</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mobile_application</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Android &amp; IOS</label>
+            <language>en</language>
+            <name>x_1104698_applic_0_applications</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-14 15:15:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-14 15:15:15</sys_updated_on>
+            <value>android_ios</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Type of Application" language="en" table="x_1104698_applic_0_type_of_application">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Type of Application</label>
+            <language>en</language>
+            <name>x_1104698_applic_0_type_of_application</name>
+            <plural>Type of Applications</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-14 15:00:08</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Type of Application</sys_name>
+            <sys_package display_value="Application Inv" source="x_1104698_applic_0">b64aad5b472c31100c774aff336d43e0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Application Inv">b64aad5b472c31100c774aff336d43e0</sys_scope>
+            <sys_update_name>sys_documentation_x_1104698_applic_0_type_of_application__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-14 15:00:08</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
