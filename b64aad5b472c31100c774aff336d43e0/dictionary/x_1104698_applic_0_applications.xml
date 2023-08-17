@@ -1,19 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="29aaa59b472c31100c774aff336d430a" label="Applications" max_length="40" name="x_1104698_applic_0_applications" type="collection">
+        <element label="Expired" max_length="40" name="expired" type="boolean"/>
+        <element display="true" label="Full Application Name" max_length="40" name="full_application_name" type="string"/>
         <element label="Has Personal Data" max_length="40" name="has_personal_data" type="boolean"/>
+        <element label="Hosting Location" max_length="32" name="hosting_location" reference="cmn_location" type="reference"/>
+        <element label="Hosting Vendor" max_length="40" name="hosting_vendor" type="string"/>
         <element label="IP Address" max_length="40" name="ip_address" type="string"/>
+        <element active="false" label="Last Modified By" max_length="32" name="last_modified_by" read_only="true" reference="sys_user" type="reference"/>
         <element choice="1" label="Mobile Application" max_length="40" name="mobile_application" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Android" sequence="0" value="android"/>
-                <element inactive_on_update="false" label="IOS" sequence="1" value="ios"/>
-                <element inactive_on_update="false" label="Android &amp; IOS" sequence="2" value="android_ios"/>
+                <element inactive_on_update="false" label="iOS" sequence="1" value="ios"/>
+                <element inactive_on_update="false" label="Android &amp; iOS" sequence="2" value="android_ios"/>
             </choice>
         </element>
         <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Opened By" max_length="32" name="opened_by" read_only="true" reference="sys_user" type="reference"/>
         <element label="Other" max_length="40" name="other" type="string"/>
         <element label="Self Hosted" max_length="40" name="self_hosted" type="boolean"/>
         <element label="Type of Application" max_length="32" name="type_of_application" reference="x_1104698_applic_0_type_of_application" type="reference"/>
         <index name="index">
+            <element name="hosting_location"/>
+        </index>
+        <index name="index2">
+            <element name="last_modified_by"/>
+        </index>
+        <index name="index3">
+            <element name="opened_by"/>
+        </index>
+        <index name="index4">
             <element name="type_of_application"/>
         </index>
     </element>
